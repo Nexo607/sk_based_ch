@@ -25,7 +25,7 @@ $domain = $_SERVER['HTTP_HOST'];
 $idd = $_GET['idd'];
 $amt = $_GET['cst'];
 if(empty($amt)) {
-	$amt = '1';
+	$amt = '4';
 	$chr = $amt * 100;
 }
 $sk = $_GET['sec'];
@@ -80,6 +80,7 @@ if (strpos($result1, "rate_limit"))
     continue;  
 
 }  
+git push origin dev
 
 break;  
 
